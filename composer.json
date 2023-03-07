@@ -1,0 +1,22 @@
+{
+    "name": "kraaakilo/php-notion-bg-generator",
+    "description": "Sample system to build image with url text",
+    "autoload": {
+        "files": [
+            "src/helpers/functions.php"
+        ],
+        "psr-4": {
+            "App\\" : "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kraaakilo",
+            "email": "marcelvishnk@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^6.2",
+        "ext-gd": "*"
+    }
+}
